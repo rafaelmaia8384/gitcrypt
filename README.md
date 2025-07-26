@@ -21,7 +21,7 @@ A command-line tool to recursively encrypt and decrypt files and folders for sec
 ### Build from Source
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/rafaelmaia8384/gitcrypt
 cd gitcrypt
 cargo build --release
 ```
