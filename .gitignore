@@ -1,0 +1,45 @@
+# Rust build artifacts
+/target/
+/Cargo.lock
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Test artifacts
+/test_data/
+/encrypted_test/
+/decrypted_test/
+
+# Coverage reports
+/tarpaulin-report.html
+/target/tarpaulin/
+
+# Backup files
+*.bak
+*.backup
+
+# Runtime data
+pids
+*.pid
+*.seed 
+
+# Rules
+.cursorrules

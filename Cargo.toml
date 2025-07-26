@@ -1,0 +1,23 @@
+[package]
+name = "gitcrypt"
+version = "0.1.0"
+edition = "2021"
+description = "Tool to recursively encrypt/decrypt files and folders for storage in Git repositories"
+authors = ["Your Name <your.email@example.com>"]
+
+[[bin]]
+name = "gitcrypt"
+path = "src/main.rs"
+
+[dependencies]
+clap = { version = "4.4", features = ["derive"] }
+aes-gcm = "0.10"
+base58 = "0.2"
+walkdir = "2.4"
+rpassword = "7.3"
+sha2 = "0.10"
+anyhow = "1.0"
+thiserror = "1.0"
+hex = "0.4"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0" 
